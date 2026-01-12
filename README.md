@@ -47,13 +47,14 @@ Hem cepten çıkan para azalır hem de emisyon (kırmızı kısım) S1'e göre d
 
 **Tüm Senaryoların kodunun çalıştırılması ve sonuçlar**
 
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/4f269d86-17e7-4fae-a820-ce78597e5f44" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/cc067aa2-1adc-4b56-98bc-820d8da2c3b9" />
 
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/8d60d081-f5fa-447b-9e56-b0f0ff6f9a43" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/3bb295bd-883c-450a-afac-5e0bd76c1a02" />
 
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/c0cb3af9-1623-4552-b8e2-484bf48a6234" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/9a0bd3f2-5676-4af0-a69f-f58d807a0599" />
 
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/beb11e55-94d2-4db3-9651-b1d209a6bf87" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/01426da7-d0de-45ba-a6aa-d44909c6756c" />
+
 
 ## 🔑 Temel Bulgular 
 
