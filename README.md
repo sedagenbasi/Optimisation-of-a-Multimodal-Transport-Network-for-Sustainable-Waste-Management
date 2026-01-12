@@ -23,6 +23,7 @@ Mevcut literatür senaryoları (S2 ve S3), genellikle "Sürekli Akış" (Continu
 
 ## 🚀 Temel Özellikler ve Senaryo 4 Katkısı
 Bu repo, literatürdeki standart Doğrusal Programlama (LP) modellerini, gerçek dünya kısıtlarını içeren Karma Tamsayılı Programlama (MIP) modeline dönüştürmüştür.
+
 <img width="600" height="250" alt="Ekran görüntüsü 2026-01-12 194654" src="https://github.com/user-attachments/assets/5b1af3ea-53d3-42e9-8695-c78a1d0cd29e" />
 
 ## 🛠️ Kurulum ve Çalıştırma
