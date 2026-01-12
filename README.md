@@ -10,9 +10,9 @@ Bu yeni senaryo, minimum gemi yükü, maksimum taşıma süresi, tesis güvenlik
 * Python ve PuLP kütüphanesi kullanılarak yapılan optimizasyon sonuçları ve literatürde önerilen Senaryo 2 (S2), gemi doluluk oranlarını ve tesis risklerini ihmal ettiği için %14 maliyet avantajı vaat etse de operasyonel olarak risklidir. 
 * Geliştirilen Senaryo 4 (S4), %90 Güvenlik Marjı ve 1000 Ton Min. Gemi Yükü kısıtları altında çalıştırıldığında, maliyetler %5 artsa da sistemin kırılganlığı (breakdown risk) minimize edilmiş ve uygulanabilir bir rota elde edilmiştir.
 
-**Senaryo 1 (S1 - Karayolu Bazlı):** Mevcut durumu yansıtır. Tüm atıklar (Mavi Kutu ve İnşaat/Yıkım atıkları) belediyelerden tesislere sadece kamyonlarla taşınır. Amaç, finansal maliyeti minimize etmektir.
-**Senaryo 2 (S2 - Çok Modlu):** Atıkların Endüstriyel Liman Bölgeleri (ZIP) üzerinden denizyolu ile taşınmasına izin verilir. Bu senaryo, denizyolunun düşük birim maliyetinden faydalanarak maliyetleri %14 oranında düşürmeyi hedefler.
-**Senaryo 3 (S3 - Sürdürülebilir):** Amaç fonksiyonuna sadece finansal maliyetler değil, "Dışsal Maliyetler" (kaza, gürültü, hava kirliliği, trafik) de eklenir.
+* **Senaryo 1 (S1 - Karayolu Bazlı):** Mevcut durumu yansıtır. Tüm atıklar (Mavi Kutu ve İnşaat/Yıkım atıkları) belediyelerden tesislere sadece kamyonlarla taşınır. Amaç, finansal maliyeti minimize etmektir.
+* **Senaryo 2 (S2 - Çok Modlu):** Atıkların Endüstriyel Liman Bölgeleri (ZIP) üzerinden denizyolu ile taşınmasına izin verilir. Bu senaryo, denizyolunun düşük birim maliyetinden faydalanarak maliyetleri %14 oranında düşürmeyi hedefler.
+* **Senaryo 3 (S3 - Sürdürülebilir):** Amaç fonksiyonuna sadece finansal maliyetler değil, "Dışsal Maliyetler" (kaza, gürültü, hava kirliliği, trafik) de eklenir.
 Mevcut literatür senaryoları (S2 ve S3), genellikle "Sürekli Akış" (Continuous Flow) varsayımıyla çalışmaktadır. Bu durum, modelin 1 tonluk bir atık için bile bir gemi rotası açmasına (mikro sevkiyat) veya acil işlenmesi gereken bir atığı 5 gün süren ucuz bir deniz rotasına yönlendirmesine neden olabilmektedir. Bu çalışma, bu "teorik optimizasyon" ile "gerçek dünya lojistiği" arasındaki boşluğu doldurmayı hedeflemektedir.
 
 ## 🎯 Amaç
