@@ -36,6 +36,7 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izley
 
 ## 🧠 Sonuçlar ve Karşılaştırma     
 **Sadece Senaryo 1- 2 ve 3’ün kodunun çalıştırılması ve sonuçlar**
+
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/cac6d58f-b00e-44a7-a0a9-7d4d977d4dac" />
 
 * Senaryo 1, en yüksek değerlere sahiptir. Sadece kamyon kullanımı, trafik kazası riski, gürültü ve yüksek karbon emisyonu yaratır. Bu senaryo "kirli" ve genellikle "pahalı"dır.
