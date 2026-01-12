@@ -3,11 +3,12 @@
 ## 📌 Proje Hakkında
 Bu çalışma, Quebec eyaletindeki katı atık yönetim sisteminin lojistik verimliliğini ve çevresel sürdürülebilirliğini artırmak amacıyla çok modlu (karayolu ve denizyolu) bir taşıma ağı tasarımı önermektedir. 
 Makalede yer alan veri seti yerine tarafımca veri seti oluşturulmuştur.
-Mevcut literatürdeki (Larbi et al., 2024) temel senaryolar (S1, S2, S3) incelenmiş ve bu senaryoların operasyonel gerçeklikten uzak varsayımları tespit edilmiştir. 
+
+* Mevcut literatürdeki (Larbi et al., 2024) temel senaryolar (S1, S2, S3) incelenmiş ve bu senaryoların operasyonel gerçeklikten uzak varsayımları tespit edilmiştir. 
 Bu eksiklikleri gidermek amacıyla, çalışmaya "Senaryo 4: Gerçekçi Operasyonel Model" eklenmiştir. 
 Bu yeni senaryo, minimum gemi yükü, maksimum taşıma süresi, tesis güvenlik payları ve karbon vergisi gibi katı kısıtları matematiksel modele entegre etmektedir. 
-Python ve PuLP kütüphanesi kullanılarak yapılan optimizasyon sonuçları ve literatürde önerilen Senaryo 2 (S2), gemi doluluk oranlarını ve tesis risklerini ihmal ettiği için %14 maliyet avantajı vaat etse de operasyonel olarak risklidir. 
-Geliştirilen Senaryo 4 (S4), %90 Güvenlik Marjı ve 1000 Ton Min. Gemi Yükü kısıtları altında çalıştırıldığında, maliyetler %5 artsa da sistemin kırılganlığı (breakdown risk) minimize edilmiş ve uygulanabilir bir rota elde edilmiştir.
+* Python ve PuLP kütüphanesi kullanılarak yapılan optimizasyon sonuçları ve literatürde önerilen Senaryo 2 (S2), gemi doluluk oranlarını ve tesis risklerini ihmal ettiği için %14 maliyet avantajı vaat etse de operasyonel olarak risklidir. 
+* Geliştirilen Senaryo 4 (S4), %90 Güvenlik Marjı ve 1000 Ton Min. Gemi Yükü kısıtları altında çalıştırıldığında, maliyetler %5 artsa da sistemin kırılganlığı (breakdown risk) minimize edilmiş ve uygulanabilir bir rota elde edilmiştir.
 
 **Senaryo 1 (S1 - Karayolu Bazlı):** Mevcut durumu yansıtır. Tüm atıklar (Mavi Kutu ve İnşaat/Yıkım atıkları) belediyelerden tesislere sadece kamyonlarla taşınır. Amaç, finansal maliyeti minimize etmektir.
 **Senaryo 2 (S2 - Çok Modlu):** Atıkların Endüstriyel Liman Bölgeleri (ZIP) üzerinden denizyolu ile taşınmasına izin verilir. Bu senaryo, denizyolunun düşük birim maliyetinden faydalanarak maliyetleri %14 oranında düşürmeyi hedefler.
@@ -22,7 +23,7 @@ Mevcut literatür senaryoları (S2 ve S3), genellikle "Sürekli Akış" (Continu
 
 ## 🚀 Temel Özellikler ve Senaryo 4 Katkısı
 Bu repo, literatürdeki standart Doğrusal Programlama (LP) modellerini, gerçek dünya kısıtlarını içeren Karma Tamsayılı Programlama (MIP) modeline dönüştürmüştür.
-<img width="933" height="382" alt="Ekran görüntüsü 2026-01-12 194654" src="https://github.com/user-attachments/assets/5b1af3ea-53d3-42e9-8695-c78a1d0cd29e" />
+<img width="600" height="250" alt="Ekran görüntüsü 2026-01-12 194654" src="https://github.com/user-attachments/assets/5b1af3ea-53d3-42e9-8695-c78a1d0cd29e" />
 
 ## 🛠️ Kurulum ve Çalıştırma
 Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
