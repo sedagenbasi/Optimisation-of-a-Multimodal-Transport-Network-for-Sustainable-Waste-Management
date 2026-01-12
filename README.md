@@ -36,7 +36,7 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izley
 
 ## 🧠 Sonuçlar ve Karşılaştırma     
 **Sadece Senaryo 1- 2 ve 3’ün kodunun çalıştırılması ve sonuçlar**
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/cac6d58f-b00e-44a7-a0a9-7d4d977d4dac" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/cac6d58f-b00e-44a7-a0a9-7d4d977d4dac" />
 
 * Senaryo 1, en yüksek değerlere sahiptir. Sadece kamyon kullanımı, trafik kazası riski, gürültü ve yüksek karbon emisyonu yaratır. Bu senaryo "kirli" ve genellikle "pahalı"dır.
 * Senaryo 2, finansal anlamda en düşük seviyeye sahiptir. Bu senaryo, uzun mesafeler (Kuzey-Güney hattı) için daha ucuz olan gemileri tercih etmiştir. Şirketler için en karlı senaryodur. 
@@ -46,13 +46,13 @@ Hem cepten çıkan para azalır hem de emisyon (kırmızı kısım) S1'e göre d
 
 **Tüm Senaryoların kodunun çalıştırılması ve sonuçlar**
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/4f269d86-17e7-4fae-a820-ce78597e5f44" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/4f269d86-17e7-4fae-a820-ce78597e5f44" />
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/8d60d081-f5fa-447b-9e56-b0f0ff6f9a43" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/8d60d081-f5fa-447b-9e56-b0f0ff6f9a43" />
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/c0cb3af9-1623-4552-b8e2-484bf48a6234" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/c0cb3af9-1623-4552-b8e2-484bf48a6234" />
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/beb11e55-94d2-4db3-9651-b1d209a6bf87" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/beb11e55-94d2-4db3-9651-b1d209a6bf87" />
 
 ## 🔑 Temel Bulgular 
 
