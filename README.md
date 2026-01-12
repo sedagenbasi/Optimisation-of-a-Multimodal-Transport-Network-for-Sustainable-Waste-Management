@@ -36,37 +36,44 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izley
 
 ## 🧠 Sonuçlar ve Karşılaştırma     
 **Sadece Senaryo 1- 2 ve 3’ün kodunun çalıştırılması ve sonuçlar**
-<img width="515" height="341" alt="image" src="https://github.com/user-attachments/assets/cac6d58f-b00e-44a7-a0a9-7d4d977d4dac" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/cac6d58f-b00e-44a7-a0a9-7d4d977d4dac" />
 
-Senaryo 1, en yüksek değerlere sahiptir. Sadece kamyon kullanımı, trafik kazası riski, gürültü ve yüksek karbon emisyonu yaratır. Bu senaryo "kirli" ve genellikle "pahalı"dır.
-Senaryo 2, finansal anlamda en düşük seviyeye sahiptir. Bu senaryo, uzun mesafeler (Kuzey-Güney hattı) için daha ucuz olan gemileri tercih etmiştir. Şirketler için en karlı senaryodur. 
+* Senaryo 1, en yüksek değerlere sahiptir. Sadece kamyon kullanımı, trafik kazası riski, gürültü ve yüksek karbon emisyonu yaratır. Bu senaryo "kirli" ve genellikle "pahalı"dır.
+* Senaryo 2, finansal anlamda en düşük seviyeye sahiptir. Bu senaryo, uzun mesafeler (Kuzey-Güney hattı) için daha ucuz olan gemileri tercih etmiştir. Şirketler için en karlı senaryodur. 
 Hem cepten çıkan para azalır hem de emisyon (kırmızı kısım) S1'e göre düşer.
-Senaryo 3, çevreyi korumak için finansal maliyeti artırmayı göze almıştır. 
+* Senaryo 3, çevreyi korumak için finansal maliyeti artırmayı göze almıştır. 
 Örneğin, kamyonla daha ucuza gidecek bir yükü, daha temiz olduğu için gemiye bindirmiş (liman elleçleme maliyetine katlanmış) olabilir.
 
 **Tüm Senaryoların kodunun çalıştırılması ve sonuçlar**
 
-<img width="542" height="418" alt="image" src="https://github.com/user-attachments/assets/4f269d86-17e7-4fae-a820-ce78597e5f44" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/4f269d86-17e7-4fae-a820-ce78597e5f44" />
 
-<img width="478" height="395" alt="image" src="https://github.com/user-attachments/assets/8d60d081-f5fa-447b-9e56-b0f0ff6f9a43" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/8d60d081-f5fa-447b-9e56-b0f0ff6f9a43" />
 
-<img width="507" height="322" alt="image" src="https://github.com/user-attachments/assets/c0cb3af9-1623-4552-b8e2-484bf48a6234" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/c0cb3af9-1623-4552-b8e2-484bf48a6234" />
 
-<img width="498" height="328" alt="image" src="https://github.com/user-attachments/assets/beb11e55-94d2-4db3-9651-b1d209a6bf87" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/beb11e55-94d2-4db3-9651-b1d209a6bf87" />
 
 ## 🔑 Temel Bulgular 
-Analiz edilen dört senaryo arasında S4 (Realistic), 2669 tCO2 toplam emisyon değeri ile en çevreci performansı sergilemiştir. 
-Sürdürülebilirlik odaklı S3 senaryosunun (3022 tCO2) dahi altına inilmesi, gerçekçi kısıtların (kapasite sınırları) algoritmayı daha yaratıcı ve verimli rota kombinasyonlarına zorladığını kanıtlamaktadır. 
+
+* Analiz edilen dört senaryo arasında S4 (Realistic), 2669 tCO2 toplam emisyon değeri ile en çevreci performansı sergilemiştir. 
+Sürdürülebilirlik odaklı S3 senaryosunun (3022 tCO2) dahi altına inilmesi, gerçekçi kısıtların (kapasite sınırları) algoritmayı daha yaratıcı ve verimli rota kombinasyonlarına zorladığını kanıtlamaktadır.
 S4, S1 senaryosuna kıyasla %28 oranında emisyon tasarrufu sağlamaktadır ki bu, gelecekteki potansiyel karbon vergisi maliyetlerini minimize eden stratejik bir kazanımdır.
-Lojistik ağların kırılganlığı, darboğaz noktalarındaki yoğunlaşma ile ölçülür. Isı haritası (heatmap) verileri incelendiğinde:
+
+* Lojistik ağların kırılganlığı, darboğaz noktalarındaki yoğunlaşma ile ölçülür. Isı haritası (heatmap) verileri incelendiğinde:
 S1 ve S2 senaryolarında yükün Sort_Blue_2 tesisine (%100) ve Sort_Blue_2 tesisine yığıldığı, diğer tesislerin atıl kaldığı görülmektedir. Bu durum, tek bir noktada oluşacak arızanın tüm operasyonu durdurabileceği "Single Point of Failure" (Tek Nokta Hatası) riskini doğurur.
-S4 Senaryosu, yükü Sort_CRD_2(%40) ve diğer tesislere daha homojen dağıtarak operasyonel dayanıklılığı (resilience) artırmıştır. 
+
+* S4 Senaryosu, yükü Sort_CRD_2(%40) ve diğer tesislere daha homojen dağıtarak operasyonel dayanıklılığı (resilience) artırmıştır. 
 Tesis kullanımındaki bu denge, operasyonel süreklilik için kritik öneme sahiptir.
-S3 senaryosu, emisyonu düşürmek adına teorik olarak 47.000 tonluk bir denizyolu hacmi öngörmüştür. 
-Ancak mevcut gemi kapasiteleri ve sefer sıklıkları göz önüne alındığında bu hacim operasyonel riskler taşımaktadır. 
-S4 Senaryosu, 10.000 ton seviyesindeki denizyolu kullanımı ile "uygulanabilir" bir intermodal yapı sunmaktadır. 
-S4, denizyoluna aşırı bağımlı kalmadan (S3'teki riskten kaçınarak) karayolu rotalarını optimize ederek en düşük emisyonu yakalamayı başarmıştır.
-S4 Senaryosunun 5.9 Milyon $ ile en yüksek finansal maliyete sahip olduğu bir gerçektir. Ancak aradaki 1.2 Milyon $'lık fark (S1'e kıyasla), bir "kayıp" değil, bazı risklerin bertaraf edilmesi için ödenen bir prim olarak değerlendirilmelidir.
-Bu bağlamda, Senaryo 4 (Realistic), sadece çevresel bir tercih değil, aynı zamanda tedarik zinciri güvenliğini ve sürdürülebilirliğini garanti altına alan en rasyonel stratejik yönetim kararıdır.
+
+* S3 senaryosu, emisyonu düşürmek adına teorik olarak 47.000 tonluk bir denizyolu hacmi öngörmüştür. 
+Ancak mevcut gemi kapasiteleri ve sefer sıklıkları göz önüne alındığında bu hacim operasyonel riskler taşımaktadır.
+
+* S4 Senaryosu, 10.000 ton seviyesindeki denizyolu kullanımı ile "uygulanabilir" bir intermodal yapı sunmaktadır.
+
+* S4, denizyoluna aşırı bağımlı kalmadan (S3'teki riskten kaçınarak) karayolu rotalarını optimize ederek en düşük emisyonu yakalamayı başarmıştır.
+* S4 Senaryosunun 5.9 Milyon $ ile en yüksek finansal maliyete sahip olduğu bir gerçektir. Ancak aradaki 1.2 Milyon $'lık fark (S1'e kıyasla), bir "kayıp" değil, bazı risklerin bertaraf edilmesi için ödenen bir prim olarak değerlendirilmelidir.
+
+* Bu bağlamda, Senaryo 4 (Realistic), sadece çevresel bir tercih değil, aynı zamanda tedarik zinciri güvenliğini ve sürdürülebilirliğini garanti altına alan en rasyonel stratejik yönetim kararıdır.
 
 
